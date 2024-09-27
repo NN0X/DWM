@@ -73,10 +73,6 @@ static const struct arg args[] = {
 	{ disk_perc, "^b#9c9998^ \uf0a0 %3s%% ", "/home"},
 	{ disk_perc, "^b#9c9998^ \uf0a0 %3s%% ", "/home/nox/Media"},
 	{ disk_perc, "^b#9c9998^ \uf0a0 %3s%% ", "/home/nox/Backup"},
-	{ disk_perc, "^b#53b099^ \uf0a0 %3s%% ", "/home/nox/Windows/System"},
-	{ disk_perc, "^b#53b099^ \uf0a0 %3s%% ", "/home/nox/Windows/Programs"},
-	{ disk_perc, "^b#53b099^ \uf0a0 %3s%% ", "/home/nox/Windows/Media"},
-	{ disk_perc, "^b#53b099^ \uf0a0 %3s%% ", "/home/nox/Windows/Backup"},
 	//{ netspeed_rx, "^b#3e9447^ \ueab4 %s ", "wlp0s20f0u8"},
 	//{ netspeed_tx, "^b#3e9447^ \ueab7 %s ", "wlp0s20f0u8"},
 	{ run_command, "^b#d4043c^ \uf001 %3s%% ", "/home/nox/Scripts/volume.sh"},
@@ -86,4 +82,6 @@ static const struct arg args[] = {
 	{ datetime, "^b#05acff^ \uf017 %s ", "%T"},
 	{ datetime, "^b#05acff^ \uf073 %s ", "%d.%m.%g"},
 	{ run_command, "^b#05acff^ %s ", "/home/nox/Scripts/get_day.sh"},
+	{ battery_perc, "^b#0e9602^ \uf244 %3s%%", "BAT0" },
+	{ battery_remaining, "^b#0e9602^ %6s", "BAT0" },
 };
