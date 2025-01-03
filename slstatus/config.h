@@ -76,7 +76,7 @@ static const struct arg args[] = {
 	{ disk_perc, "^b#53b099^ \uf0a0 %3s%% ", "/home/nox/Windows/Programs"},
 	//{ netspeed_rx, "^b#3e9447^ \ueab4 %s ", "wlp0s20f0u8"},
 	//{ netspeed_tx, "^b#3e9447^ \ueab7 %s ", "wlp0s20f0u8"},
-	{ run_command, "^b#d4043c^ \uf001 %3s%% ", "/home/nox/Scripts/volume.sh"},
+	{ run_command, "^b#d4043c^ \uf028 %3s%% ", "/home/nox/Scripts/volume.sh"},
 	{ keymap, "^b#d4043c^ \uf11c %2s ", NULL},
 	{ username, "^b#d4043c^ \uf007 %s ", NULL},
 	{ run_command, "%s^c#0c0838^", "/home/nox/Scripts/get_weather.sh"},
